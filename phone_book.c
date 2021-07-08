@@ -1,4 +1,4 @@
- #include<stdio.h>
+#include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
 
@@ -240,7 +240,7 @@ int delete(FILE *db_file, char *name)
     entry *p = load_entries(db_file);
     entry *base = p;
     entry *prev = NULL;
-    entry del = NULL ;
+    entry del = NULL ; / Node to be deleted */
     int deleted = 0;
     while(p!=NULL) 
     {
