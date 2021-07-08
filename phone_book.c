@@ -1,4 +1,4 @@
-[9:31 PM, 6/30/2021] Shaik AbdulRavoof: #include<string.h>
+ #include<string.h>
 #include<math.h>
 #include<stdio.h>
 #include<cs50.h>
